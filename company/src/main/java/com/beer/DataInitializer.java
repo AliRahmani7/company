@@ -23,9 +23,9 @@ public class DataInitializer implements CommandLineRunner
     public void run(String...args) throws Exception
     {
         employeeRepository.save(new Employee("Jimmy", "Kartright", "jkartright@beer.com"));
-        employeeRepository.save(new Employee("Tom", "Cruise", "tcruise@beer.com"));
-        employeeRepository.save(new Employee("John", "Cena", "jcena@beer.com"));
-        employeeRepository.save(new Employee("Tony", "stark", "tstark@beer.com"));
+        employeeRepository.save(new Employee("Tom", "Fasad", "tcruise@beer.com"));
+        employeeRepository.save(new Employee("John", "Pery", "jcena@beer.com"));
+        employeeRepository.save(new Employee("Tara", "Banks", "tstark@beer.com"));
 
         Iterable < Employee > employees = employeeRepository.findAll();
         Iterator < Employee > iterator = employees.iterator();
