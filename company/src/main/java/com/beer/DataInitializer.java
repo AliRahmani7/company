@@ -33,5 +33,6 @@ public class DataInitializer implements CommandLineRunner
         {
             logger.info("{}", iterator.next().toString());
         }
+        
     }
 }
